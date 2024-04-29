@@ -1,121 +1,86 @@
 <!DOCTYPE html>
-<html>
-    <head>
-
-
-        <style>
-            nav{
-                display: flex;
-                justify-content: space-around;
-            }
-
-
-            ul{
-                display: flex;
-                list-style: none;
-            }
-
-
-            li a { padding: 2rem;}
-
-
-            a {
-                color: black;
-                text-decoration: none;
-            
-            }
-
-            #koka{
-                margin-left: 18%;
-            }
-
-           
-
-            .about{
-                display: flex;
-                justify-content:center;
-                gap: 3%;
-            }
-
-            .contact{
-                display: flex;
-                justify-content: space-around;
-            }
-
-            .contact-details{
-                display: flex;
-                justify-content: space-around;
-            }
-
-           
-
-        </style>
-
-    </head>
-
-    <body>
-        <nav>
-
-            <div><h1>Tlotlego</h1></div>
-
-            <ul>
-                <li> <a href="./index.html">Home</a></li>
-                <li> <a href="">about</a></li>
-                <li> <a href="">contact</a></li>
-
-            </ul>
-
-            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Tlot</span>lego</a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#">Experience</a>
+            <a href="#">Education</a>
         </nav>
 
-       <img src="/assets/koka-132953_Gallery.jpg" alt="Tlotlo"
-       style="width: 1000px;height: 900px; "     id="koka">
-         
+        <a href="#" class="contact">Contact Me</a>
+    </header>
 
-        <br>
-        <br>
-        <br>
-        <div class="about">
-            
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
 
-            <div>
-                <h1>TLOTLEGO SEGAMI</h1>
-                <p>I AM HIGHLY COMMIETTED,</p>
-                <p> A HARD WORKER AND A VERY RESPONSIBLE INDIVIDUAL</p>
-                <p>WHO IS ALWAYS EAGER TO LEARN. MY LAST PROJECT TAUGHT ME</p>
-                <p>TO BE A TEAM LEADER AND TO BE A REAL TEAM PLAY </p>
+            <h1>I'm <span>Tlotlego Segami</span></h1>
+
+            <p> <b>I AM HIGHLY COMMIETTED, A HARD WORKER AND A VERY RESPONSIBLE INDIVIDUAL, I AM EAGER TO LEARN AND I BRING A LOT TO THE TABLE IN TEARMS OF SKILLS AND ABILITY. I AM VERY FLEXIBLE AND ADAPTIVE TO LEARNING NEW THINGS, WHICH MEANS I WILL BE ABLE TO CONTRIBUTE TO YOUR COMPANY’S GROWTH .MY LAST PROJECT TAUGHT ME TO BE TEAM PLAYER.</b>.</p>
+
+            <div class="btn=box">
+                <button class="btn-box-1">Hire Me</button>
+                <button class="btn-box-2">Experience</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="/image/20240422-131325_WhatsAppBusiness.jpg" alt="">
+        </div>
+    </section> 
+
+    <section class="about">
+
+        <div class="about-img">
+            <img src="/image/20240422-131325_WhatsAppBusiness.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Tlotlego <span>Segami</span></h3>
+            <p>I matriculated at Dr. E.P Lekhela High School in 2018. Obtained N1 in Electrical Engineering in 2019 at Moremogolo Urban TVET College. In 2021 I Obtain a certificate of Basic Education Employment Initiative Programme, worked at Molehabngwe Primary School as a Child and Youth Care Worker where I got a skill of responsibility, flexibilty and adaptivity.</p>
+            <a href="#" class="btn-box-2">Download CV</a>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                
+                <input type="email" placeholder="Email">
             </div>
 
-
-            <div>
-                <img src="/assets/20240422-131325_WhatsAppBusiness.jpg" alt=" myeslf" 
-                style="width: 400px; height: 300;"  id="myself">
+            <div class="input-box">
                 
             </div>
 
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn-box-1">
+        
+        </form>
+    </section>
+
+    <footer class="footer">
+
+        <div class="social">
+            <a href="#"><i class="ri-whatsapp-line"></i></a>
+            <a href="#"><i class="ri-facebook-circle-line"></i></a>
+            <a href="#"><i class="ri-twitter-x-line"></i></a>
+
         </div>
-
-        <div class="contact-details">
-            <div> 
-                <h1>Contact details</h1>
-                <p>contact number:0640832625</p>
-                <p>whatsapp:0640832625</p>
-                <p>facebook:tlotlo se-gamie</p>
-                <p>email:t88segamie@gmail.com</p>
-            </div>
-
-            <div>
-                <h1>Home address</h1>
-                <p>181 Garaboiketlo street</p>
-                <p>Ipopeng</p>
-                <p>8345</p>
-                <p>Kimberley</p>
-            </div>
-
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.3200944157456!2d24.709953474523328!3d-28.70997847562255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9b100712fd5187%3A0xcecbe6288cf70801!2sGaraboiketlo%20St%2C%20Ipopeng%2C%20Kimberley%2C%208345!5e0!3m2!1sen!2sza!4v1713777214994!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-
-    </body>
+    </footer>
+</body>
 </html>
